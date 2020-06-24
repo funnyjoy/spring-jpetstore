@@ -112,7 +112,7 @@
             </snapshots>
             <id>central</id>
             <name>Maven Central repository</name>
-            <url>http://repo1.maven.org/maven2/</url>
+            <url>https://repo1.maven.org/maven2/</url>
         </repository>
         <repository>
             <id>amateras</id>
@@ -659,6 +659,11 @@
         </dependency>
         <!-- == End Tomcat == -->
 
+		<dependency>
+		    <groupId>jakarta.xml.bind</groupId>
+		    <artifactId>jakarta.xml.bind-api</artifactId>
+		    <version>2.3.2</version>
+		</dependency>
     </dependencies>
     <properties>
         <!-- == Google == -->
